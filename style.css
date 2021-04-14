@@ -1,0 +1,141 @@
+h1{
+    font-size:70px;
+    margin-bottom: 80px;
+    margin-left:50px;
+    margin-top:60px;
+    color:#444444
+}
+.header{
+    color:blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:hotpink;
+}
+a:link{
+    color:blue;
+    text-decoration:none;
+}
+a:visited{
+    color:blue;
+    text-decoration:none;
+}
+.title{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#36a047;
+}
+.camel{
+    padding-left:60px;
+    padding-bottom:40px;
+    background-color:#36BA;
+    position:relative;
+}
+.camel p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-500%, -500%);
+    opacity:0;
+}
+.camel:hover p{
+    opacity:1;
+}
+.camel:hover img{
+    transform:scale(1.5);
+}
+.chameleon{
+    padding-left:60px;
+    padding-bottom:40px;
+    background-color: darkslategrey;
+    position:relative;
+}
+.chameleon p{
+    position:absolute;
+    top: 40%;
+    left: 52%;
+    transform:translate(-400%, -400%);
+    opacity:0;
+}
+.chameleon:hover p{
+    opacity:1;
+}
+.chameleon:hover img{
+    transform:scale(1.5);
+}
+.pigeon{
+    padding-left:60px;
+    padding-bottom:40px;
+    background-color:#345678;
+    position:relative;
+}
+.pigeon p{
+    position:absolute;
+    top:62%;
+    left:51.5%;
+    transform:translate(-500%, -500%);
+    opacity:0;
+}
+.pigeon:hover p{
+    opacity:1;
+}
+.pigeon:hover img{
+    transform:scale(1.5);
+}
+.bear{
+    padding-left:60px;
+    padding-bottom:40px;
+    background-color:#925764;
+    position:relative;
+}
+.bear p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-550%, -550%);
+    opacity:0;
+}
+.bear:hover p{
+    opacity:1;
+}
+.bear:hover img{
+    transform:scale(1.5);
+}
+.panda{
+    padding-left:60px;
+    padding-bottom:40px;
+    background-color:#675489;
+    position:relative;
+}
+.panda p{
+    position:absolute;
+    top:55%;
+    left:50%;
+    transform:translate(-500%, -500%);
+    opacity:0;
+}
+.panda:hover p{
+    opacity:1;
+}
+.panda:hover img{
+    transform:scale(1.5);
+}
+.cicada{
+    padding-left:60px;
+    padding-bottom:40px;
+    background-color:#576349;
+    position:relative;
+}
+.cicada p{
+    position:absolute;
+    top:60%;
+    left:52%;
+    transform:translate(-500%, -500%);
+    opacity:0;
+}
+.cicada:hover p{
+    opacity:1;
+}
+.cicada:hover img{
+    transform:scale(1.5);
+}
